@@ -714,3 +714,12 @@ h1 em, .display em, .intro-text em { font-style: normal; }
 .hl-grid em, .intro-text h1 em { font-style: normal; }
 .action-bar .ab-enquire { background: var(--beige); color: #fff; font-weight: 600; }
 .intro-price i { color: #d9c3b4; }
+
+/* hero: labelled fact rows (homes, location, size, price) */
+.ho-rows{margin:6px 0 0;max-width:440px;text-shadow:0 1px 10px rgba(0,0,0,.6)}
+.ho-rows>div{display:grid;grid-template-columns:96px 1fr;align-items:baseline;gap:12px;padding:11px 0;border-top:1px solid rgba(255,255,255,.32);text-align:left}
+.ho-rows>div:last-child{border-bottom:1px solid rgba(255,255,255,.32)}
+.ho-rows dt{font-size:11px;font-weight:600;letter-spacing:.18em;text-transform:uppercase;color:#fff;opacity:.75}
+.ho-rows dd{margin:0;font-size:17px;font-weight:500;color:#fff}
+.ho-rows-price dd{font-family:var(--serif);font-size:24px}
+@media(max-width:899px){.ho-rows{margin:4px auto 0}.ho-rows>div{grid-template-columns:78px 1fr;padding:8px 0}.ho-rows dd{font-size:15px}.ho-rows-price dd{font-size:20px}}
