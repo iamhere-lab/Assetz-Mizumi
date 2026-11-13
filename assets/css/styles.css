@@ -666,7 +666,6 @@ h1 em, .display em, .intro-text em { font-style: normal; }
 .ss-visit-form .assure, .ss-closing-form .assure { justify-content: flex-start; margin-top: 12px; }
 @media (min-width: 900px) { .ss-visit-grid { grid-template-columns: 1.1fr .9fr; gap: 56px; } .ss-visit-form, .ss-closing-form { margin: 0 0 0 auto; padding: 26px 26px 20px; } }
 /* fewer fields where the form sits in the first screen or mid-page */
-.hero-form .field:has(input[name="email"]), .ss-visit-form .field:has(input[name="email"]) { display: none; }
 .hero-form .js-form-slot { min-height: 0; }
 @media (max-width: 899px) {
   .ss-logo-hero { width: 190px; }
@@ -723,3 +722,7 @@ h1 em, .display em, .intro-text em { font-style: normal; }
 .ho-rows dd{margin:0;font-size:17px;font-weight:500;color:#fff}
 .ho-rows-price dd{font-family:var(--serif);font-size:24px}
 @media(max-width:899px){.ho-rows{margin:4px auto 0}.ho-rows>div{grid-template-columns:78px 1fr;padding:8px 0}.ho-rows dd{font-size:15px}.ho-rows-price dd{font-size:20px}}
+
+/* header phone pill stays on one line */
+.phone-pill { white-space: nowrap; flex: none; }
+@media (min-width: 900px) and (max-width: 1439px) { .phone-pill { font-size: 14.5px; padding: 0 14px; gap: 8px; } .site-nav { gap: 18px; } }
