@@ -23,11 +23,11 @@ window.MZ_CONFIG = {
 
   /* Sales / channel-partner number. Call buttons stay hidden until both are set.
    * Example: phoneDisplay "98765 43210", phoneE164 "+919876543210". */
-  phoneDisplay: "",
-  phoneE164: "",
+  phoneDisplay: "95670 11331",
+  phoneE164: "+919567011331",
 
   /* WhatsApp number, digits only with country code (e.g. "919876543210"). WhatsApp buttons stay hidden until set. */
-  whatsappNumber: "",
+  whatsappNumber: "919567011331",
   whatsappMessage: "Hi, I'm interested in Assetz Mizumi Reserve, Kudlu. Please share the cost sheet and floor plans.",
 
   /* Auto-open the enquiry popup after this many seconds, or at 50% scroll if that comes first (once per session, never after a form is started). 0 disables. */
