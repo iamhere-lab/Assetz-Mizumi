@@ -8,7 +8,7 @@ window.MZ_CONFIG = {
    * (Pabbly / Zapier / Make webhook, Google Apps Script, Leadrat proxy).
    * Empty until a real endpoint exists: the form then refuses to submit
    * instead of showing a fake success message. */
-  leadEndpoint: "",
+  leadEndpoint: "https://connect.pabbly.com/webhook-listener/webhook/IjU3NjUwNTY1MDYzNTA0MzY1MjZjNTUzNyI_3D_pc/IjU3NjcwNTZiMDYzNTA0MzE1MjY4NTUzMTUxMzUi_pc",
 
   /* "form" = URL-encoded POST without a CORS preflight (right for Pabbly / Zapier / Make webhooks).
    * "json" = JSON POST (for your own endpoint that answers CORS). */
